@@ -1,0 +1,20 @@
+services:
+  backend:
+    build: ./backend
+    restart: always
+    env_file: ./backend/.env
+    ports:
+      - "8000:8000"
+    volumes:
+      - db_data:/data
+
+  frontend:
+    build: ./frontend
+    restart: always
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  db_data:
