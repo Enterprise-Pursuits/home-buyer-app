@@ -1,6 +1,6 @@
 # NWA New Homebuyer Tracker
 
-A full-stack web application that aggregates new homebuyer records across 13 Arkansas counties for sales prospecting and lead management. Built using public county assessor records — fully ethical and compliant with public records law.
+A full-stack web application that aggregates new homebuyer records across 13 Arkansas counties for sales prospecting and lead management. Built using public county assessor records - fully ethical and compliant with public records law.
 
 ---
 
@@ -34,12 +34,12 @@ All data comes from legally public sources:
 - Multi-county filter with dropdown selector
 - Date range and price range filters
 - Buyer name search
-- **Batch upload** — drag-and-drop Excel/PDF files from county assessor offices
+- **Batch upload** - drag-and-drop Excel/PDF files from county assessor offices
 - Auto-detects column names (flexible header mapping)
 - Duplicate detection by parcel ID
 - CSV export of any filtered result set
 - Daily auto-sync scheduler (when API key configured)
-- Demo mode — runs with generated sample data, no API key required
+- Demo mode - runs with generated sample data, no API key required
 
 ---
 
