@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8000"
+  baseURL: "http://localhost:8001"
 });
 
 export const fetchHomebuyers = (params) =>
@@ -17,6 +17,6 @@ export const exportCSV = (params) => {
     else if (v != null && v !== "") query.append(k, v);
   });
   window.open(
-    `http://localhost:8000/api/homebuyers/export/csv?${query.toString()}`
+    `http://localhost:8001/api/homebuyers/export/csv?${query.toString()}`
   );
 };
