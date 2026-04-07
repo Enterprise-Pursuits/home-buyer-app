@@ -128,3 +128,13 @@ SKIP_TRACE_API_KEY=
 Built under [Enterprise Pursuits](https://github.com/Enterprise-Pursuits) as part of an AI Solutions Engineer portfolio.
 
 *Uses only publicly available county assessor records. No scraping of private or restricted websites.*
+
+---
+
+## Copyright
+
+Copyright (c) 2026 Enterprise Pursuits. All rights reserved.
+
+This software and its source code are the exclusive intellectual property of Enterprise Pursuits. Viewing this repository for personal education or evaluation purposes is permitted. Any reproduction, distribution, modification, sublicensing, commercial use, or deployment of this software, in whole or in part, without express written authorization from Enterprise Pursuits is strictly prohibited.
+
+To license this technology for your organization or to engage Chad Smith, Ed.S. as an AI Solutions Engineer, contact: [github.com/Enterprise-Pursuits](https://github.com/Enterprise-Pursuits)
